@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=EB+Garamond&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4efe6;
+  color: #2e2a26;
+}
+
+/* Cover page */
+.cover {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.open-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 28px;
+  border: 1px solid #2e2a26;
+  text-decoration: none;
+  color: #2e2a26;
+  font-family: 'EB Garamond', serif;
+  transition: all 0.3s ease;
+}
+
+.open-btn:hover {
+  background: #2e2a26;
+  color: #f4efe6;
+}
+
+/* Letter page */
+.letter-page {
+  padding: 60px 20px;
+}
+
+.paper {
+  max-width: 700px;
+  margin: auto;
+  background: #fbf7f0;
+  padding: 60px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  font-family: 'EB Garamond', serif;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.date {
+  text-align: right;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.sign {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #2e2a26;
+  opacity: 0.7;
+}
+
+.back:hover {
+  opacity: 1;
+}
